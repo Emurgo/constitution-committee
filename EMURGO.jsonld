@@ -59,11 +59,6 @@
         "@type": "Link",
         "label": "Official website",
         "uri": "https://www.emurgo.io/"
-      },
-      {
-        "@type": "Link",
-        "label": "Official X",
-        "uri": "https://x.com/emurgo_io?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
       }
     ]
   }
