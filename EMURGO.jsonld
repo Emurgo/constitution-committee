@@ -56,8 +56,8 @@
     "givenName": "EMURGO",
     "references": [
       {
-        "@type": "Identity",
-        "label": "Official X account ",
+        "@type": "Link",
+        "label": "EMURGO's X account",
         "uri": "https://x.com/emurgo_io?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
       }
     ]
