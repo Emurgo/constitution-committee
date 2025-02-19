@@ -58,7 +58,7 @@
     "rationaleStatement": "We recently submitted a vote on this governance action with an incorrectly linked rationale. This update “Abstain”' vote is temporary and serves to keep our voting status as neutral whilst we finalize our decision.",
     "precedentDiscussion": "None",
     "counterargumentDiscussion": "None",
-    "conclusion": "The governance action is constitutional.",
+    "conclusion": "This update “Abstain”' vote is temporary and serves to keep our voting status as neutral whilst we finalize our decision.",
     "internalVote": {
       "constitutional": 0,
       "unconstitutional": 0,
@@ -73,7 +73,7 @@
       "witness": {
         "witnessAlgorithm": "ed25519",
         "publicKey": "30288ff913de8ae9ce8b914e262b41fbb2a92bac74e4756fa0454dbdd4ad8ff1",
-        "signature": "435180f52bbd03d472e67f5f21ea306900a8a2d1c1c3e3054a0304765097203db58a6baef0b4bff5a094c9ede92b8659ff8bfe1605e665d9a1d08cbc9013340b"
+        "signature": "3cca9068160e387568a1e823fbf8524258679cd17235c831bd41c876f371914ca0a4884d6a3567840ab12b0a307b0e483d0d66ec6e52b5622d5c1364533a7007"
       }
     }
   ]
