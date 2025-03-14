@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md",
+    "CIP136": "https://github.com/Ryun1/CIPs/tree/e56f704918061e63ce2076cc3644a946b286c8d1/CIP-governance-metadata-cc-rationale/README.md",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP136:body",
+      "@context": {
+        "references": {
+          "@id": "CIP136:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "RelevantArticles": "CIP136:RelevantArticles"
+          }
+        },
+        "summary": "CIP136:summary",
+        "rationaleStatement": "CIP136:rationaleStatement",
+        "precedentDiscussion": "CIP136:precedentDiscussion",
+        "counterargumentDiscussion": "CIP136:counterargumentDiscussion",
+        "conclusion": "CIP136:conclusion",
+        "internalVote": {
+          "@id": "CIP136:internalVote",
+          "@container": "@set",
+          "@context": {
+            "constitutional": "CIP136:constitutional",
+            "unconstitutional": "CIP136:unconstitutional",
+            "abstain": "CIP136:abstain",
+            "didNotVote": "CIP136:didNotVote"
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "summary": "We find this governance action, as proposed, to be unconstitutional.",
+    "rationaleStatement": "## Summary\n\nThis governance action, which proposes reducing the Cardano Treasury Tax from 20% to 10%, satisfies all the necessary guardrails concerning treasury cuts. However, the proposal does not satisfy part of the provision in the Cardano Constitution, which states that on-chain governance actions should address their expected impact on the Cardano blockchain ecosystem\n\n## Reference  \n  \nGUARDRAILS\n\nTC-01 (y) treasuryCut must not be lower than 0.1 (10%)\n\nTC-02 (y) treasuryCut must not exceed 0.3 (30%)\n\nTC-03 (y) treasuryCut must not be negative\n\nTC-04 (y) treasuryCut must not exceed 1.0 (100%)\n\nTC-05 (~ - no access to change history) treasuryCut must not be changed more than once in any 36 epoch period (approximately 6 months)\n\n  \nARTICLE III. PARTICIPATORY AND DECENTRALIZED GOVERNANCE  \nSection 5  \n  \n“\"Hard Fork Initiation\" and \"Protocol Parameter Change\" governance actions shall undergo sufficient technical review and scrutiny as mandated by the Guardrails to ensure that the governance action does not endanger the security, functionality, performance, or long-term sustainability of the Cardano Blockchain. On-chain governance actions should address their expected impact on the Cardano Blockchain ecosystem.”  \n  \n## Conclusion\n\nEMURGO's view is that this proposal is unconstitutional based on the factors mentioned above. From a technical perspective, a revision plan would be necessary. Additionally, regarding the expected impact, we expect a working group will be formed to facilitate concrete discussions and develop a framework for assessing the anticipated impact and other relevant aspects.",
+    "precedentDiscussion": "None",
+    "counterargumentDiscussion": "None",
+    "conclusion": "The governance action is constitutional.",
+    "internalVote": {
+      "constitutional": 3,
+      "unconstitutional": 0,
+      "abstain": 0,
+      "didNotVote": 0
+    },
+    "references": []
+  },
+  "authors": [
+    {
+      "name": "Emurgo",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "30288ff913de8ae9ce8b914e262b41fbb2a92bac74e4756fa0454dbdd4ad8ff1",
+        "signature": "9380aa267b3d513492ee380615b393c181fd5f6b5cbf93ec6e27bc48c6ec638b758c3f47de60ea5229b7dfc7bc8bd87eb56b81701ffc036f3b2ff5ddd2a1bd0d"
+      }
+    }
+  ]
+}
